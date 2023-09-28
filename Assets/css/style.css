@@ -1,0 +1,81 @@
+/*Estilos da página index.html*/
+
+*{
+    background-color:bisque;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.center1{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%; 
+    text-align: right;
+}
+
+.menu a{  
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.menu b{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilos da página evolucao.html*/
