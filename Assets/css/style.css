@@ -51,14 +51,6 @@
     align-items: center;
 }
 
-.flex{
-    display: flex;
-    flex-flow: row-reverse;
-    justify-content: flex-end;
-    align-items: center;
-
-}
-
 .menu b{
     text-decoration: none;
     color: rgb(255, 0, 0);
@@ -66,8 +58,15 @@
     margin-right: 15px;
 }
 
+.tm-imagem{
+    width: 750px;
+    height: 518px;
+}
 
-
+.tm-imagem1{
+    width: 766px;
+    height: 505px;
+}
 
 
 
