@@ -14,6 +14,8 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 2%;
+  
+
 }
 
 .center1{
@@ -44,6 +46,10 @@
     margin-right: 15px;
 }
 
+.menu a:hover{
+    color: black;
+}
+
 .container{
     display: flex;
     flex-flow: row;
@@ -68,13 +74,36 @@
     height: 505px;
 }
 
+.p-30{
+    padding: 30px;
+}
 
-
-
-
-
+.justify{
+    text-align: justify;
+}
 
 
 
 
 /*Estilos da página evolucao.html*/
+
+.center2{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.center3{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilo da página premio.html*/
+
+.ct{
+   padding: 40px;
+}
